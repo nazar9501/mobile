@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Головна"
+            android:layout_weight="1"
+            android:id="@+id/Psport"
+            android:background="#ffffff"
+            android:textSize="18dp"
+            android:onClick="onButtonClick5">
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Тренування"
+            android:layout_weight="1"
+            android:id="@+id/Ptraning"
+            android:background="#ffffff"
+            android:textSize="18dp"
+            android:onClick="onButtonClick6">
+        </Button>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="
+         Програма 1\n
+       -----------------------\n\n
+ Понеділок\n
+     1. Жим штанги лежачи 3х10.\n
+     3. Розводка гантель лежачи 3х10.\n
+     4. Французький жим 2х10.\n
+     5. Прокачка тріцепса в блоці 2х10.\n\n
+
+ Середа\n
+     1. Підтягування 3х10.\n
+     2. Тяга вертикального блоку 3х10.\n
+     3. Тяга штанги під нахилом 3х10.\n
+     4. Станова тяга 3х10.\n\n
+
+ П'ятниця\n
+     1. Присідання зі штангою 4х10.\n
+     2. Жим ногами 3х10.\n
+     3. Піднімання гантель на біцепс 3х10.\n
+     4. Піднімання штанги на біцепс 3х10.\n\n
+
+
+         Програма 2\n
+       -----------------------\n\n
+
+ Понеділок\n
+     1. Присідання зі штангою 4х10.\n
+     2. Жим ногами 3х10.\n
+     3. Піднімання на носки 3х15.\n
+     4. Піднімання гантель на біцепс 3х10.\n
+     5. Піднімання штанги на біцепс 3х10.\n\n
+
+ Середа\n
+     1. Жим штанги лежачи 3х10.\n
+     2. Жим штанги під наклоном 3х10.\n
+     3. Розводка гантель лежачи 3х10.\n
+     4. Французький жим 2х10.\n
+     5. Прокачка тріцепса в блоці 2х10.\n\n
+
+ П'ятниця\n
+     1. Підтягування 3х10.\n
+     2. Тяга вертикального блоку 3х10.\n
+     3. Розводи гантелей в сторону 3х10.\n
+     4. Тяга штанги під нахилом 3х10.\n
+     5. Станова тяга 3х10."
+                android:id="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
